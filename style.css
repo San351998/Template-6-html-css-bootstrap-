@@ -1,0 +1,323 @@
+
+.navbar{
+	position: absolute!important;
+	z-index: 1;
+}
+
+b{
+	font-size: 2rem;
+}
+
+.homeimage{
+	background-image: url("homeimg.jpg");
+	background-repeat: no-repeat;
+	background-position:center;	
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	height: 720px;
+	margin-top:-2rem;
+}
+.homeimage .col-5{
+	margin-left:16rem;
+	max-width: 100%;
+}
+
+.friendly{
+	padding-top: 12rem;
+}
+.container-fluid .row h1{
+	font-size: 4rem !important;
+}
+.twocolumnrow1{
+	padding-right: 10rem ;
+	padding-left: 9rem ;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+}
+.twocolumnrow1  img{
+	width: 100%;
+	height: 100%;
+}
+.c1{
+	left: 10%!important;
+	bottom: -3%!important;
+	text-align: left!important;
+}
+.freemaster{
+	padding:6rem !important;
+	background-color: rgb(0,0,0,0.2);
+}
+.rowpic{
+	padding-right: 0px!important;
+	padding-right: 0px!important;	
+}
+/*Our Work*/
+.ourwork{
+	padding-top:6rem;
+}
+.ourwork b{
+	font-size: 50px;
+}
+.Ourworkcontainer{
+	margin-top: -5rem;
+	margin-bottom: -2rem;
+}
+
+
+.backgroundimg{
+	margin-top: 6rem;
+	background-image: url("homeimg.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    filter: blur(4px);
+}
+
+.bgimages img{
+
+   margin-top: 12rem;
+}
+#showcasepics{
+	bottom: -195px;
+}
+
+.container-fluid{
+	max-width: 100%;
+}
+
+.already{
+	margin-top: 23rem;
+}
+.dollar{
+	display: inline;
+}
+
+/*Service list*/
+
+
+/*card*/
+.Ourteam{
+	max-width: 1280px;
+}
+.row .awesomteam1{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.row .awesomteam2{
+	padding-right: 0px;
+	padding-left: 0px;
+}.row .awesomteam3{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.row .awesomteam4{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+/*fourrowimages*/
+.container-fluid .column {
+  height:100%;
+  padding: 0px;
+  width: 475px;
+}
+.column img{
+  height:450px;
+  width: 475px;
+}
+
+/*Form*/
+form .message{
+ 
+  width: 100%;
+  height: 9rem; 
+
+}
+form .button{
+	width: 7rem;
+}
+form{
+	border:none;
+}
+/*Follow us*/
+span img{
+	width: 35px;
+}
+.follow{
+	height: 210px;
+}
+
+/*Location*/
+.container-fluid iframe{
+ text-align: center;
+ max-width: 100%
+
+}
+
+/*Footer*/
+footer li{
+	display: inline;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	align-content: center;
+}
+
+footer img{
+    margin: 0.4rem;
+}
+.container-fluid footer{
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+}
+
+
+
+/*Responsive*/
+
+ @media (max-width:994px) {
+.container .col-6{
+    max-width:100%;
+    flex: 100%;
+  }
+}
+ @media (max-width:994px) {
+.container .twocolumnrow1{
+    max-width:100%;
+    flex: 100%;
+    padding-bottom: 2rem;
+    padding-right: 8rem ;
+	padding-left: 8rem ;
+	padding-top: 1rem;
+	padding-bottom: 4rem;
+  }
+  .twocolumnrow2 {
+  	padding-top: 2rem;
+  }
+}
+ @media (max-width:990px) {
+.container-fluid .col-7{
+    max-width:100%;
+    flex: 100%;
+  }
+.masterrow .col-5{
+    max-width:100%;
+    flex: 100%;
+}
+}
+
+ @media (max-width:998px){
+.container .col-3{
+    max-width:50%;
+    flex: 100%;
+    padding-bottom: 6rem;
+	padding-left:0rem;
+  }
+.container .col-3 img{
+	padding-top:0rem;
+}
+.ourwork{
+	margin-top:0.2rem;
+}
+}
+
+ @media (max-width:600px) {
+  .container .col-3{
+    max-width:100%;
+    flex: 100%;
+  }
+  .c1 h1{
+   font-size: 19px;
+   margin-top: 12px;
+  }
+}
+
+ @media (max-width:778px) {
+  .homeimage .col-5{
+   margin: 2rem;
+  	flex: 0  0 50%;
+  }
+}
+
+
+
+/*threecolumnimages*/
+ @media (max-width:998px){
+.container .col-4{
+    max-width:50%;
+    flex: 100%;
+
+  }.col-4 .three{
+  	padding-top:2.8rem;
+  }
+  .backgroundimg{
+  	height: 980px;
+  }
+}
+ @media (max-width:768px){
+.container .col-4{
+    max-width:100%;
+    flex: 100%;
+  
+}
+.container .col-4 img{
+  	padding-top:2rem;
+ }
+ .backgroundimg{
+  	height: 1733px;
+}
+}
+
+/*Ourawesometeam*/
+ @media (max-width:998px){
+.awesomteam .col{
+    max-width:50%;
+    flex: 100%;
+}
+.awesomteam .row{
+	padding-top: 2rem;
+	padding-bottom: 1.2rem;
+}
+}
+
+ @media (max-width:600px){
+.awesomteam .col{
+    max-width:100%;
+    flex: 100%;
+}
+}
+
+/*fourimages*/
+ @media (max-width:700px){
+.fourimages .col-3{
+    max-width:50%;
+    flex: 100%;
+}
+}
+ @media (max-width:580px){
+.fourimages .col-3{
+    max-width:100%;
+    flex: 100%;
+}
+}
+/*loaction*/
+ @media (max-width:998px){
+.location col-6{
+    max-width:100%;
+    flex: 100%;
+}
+.col-6 iframe{
+	margin-top: 2rem;
+}
+}
+/*footer*/
+ @media (max-width:584px){
+footer li{
+	display:block; 
+	align-content: center;
+}
+}
+
